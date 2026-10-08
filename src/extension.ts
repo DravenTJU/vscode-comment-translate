@@ -20,6 +20,7 @@ import { registerChatParticipant } from './copilot/translate';
 import { cleanupVariableCompletionByUri } from './command/replaceSelections';
 import { conciseDecorationManager } from './languageFeature/concise';
 import { registerMarkdownPreview } from './languageFeature/markdownPreview';
+import { registerFeaturePreview } from './languageFeature/featurePreview';
 
 export let outputChannel = window.createOutputChannel('Comment Translate');
 
@@ -43,6 +44,7 @@ export async function activate(context: ExtensionContext) {
     registerChatParticipant(context);
     conciseDecorationManager.register(context, canLanguages);
     registerMarkdownPreview(context);
+    registerFeaturePreview(context);
 
     context.subscriptions.push(...commentDecorationManager.showBrowseCommentTranslate(canLanguages));
     context.subscriptions.push(workspace.onDidCloseTextDocument((doc) => {

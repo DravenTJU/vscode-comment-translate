@@ -148,6 +148,12 @@
                 "title": "%commentTranslate.command.openMarkdownTranslatePreview%",
                 "icon": "$(symbol-null)",
                 "category": "Comment Translate"
+            },
+            {
+                "command": "commentTranslate.openFeatureTranslateView",
+                "title": "%commentTranslate.command.openFeatureTranslateView%",
+                "icon": "$(symbol-null)",
+                "category": "Comment Translate"
             }
         ],
         "keybindings": [
@@ -204,6 +210,10 @@
                     "when": "resourceLangId == markdown || resourceLangId == prompt || resourceLangId == instructions || resourceLangId == chatagent || resourceLangId == skill"
                 },
                 {
+                    "command": "commentTranslate.openFeatureTranslateView",
+                    "when": "resourceExtname == .feature"
+                },
+                {
                     "command": "commentTranslate.openDocumentBrowseMode",
                     "when": "false"
                 },
@@ -224,6 +234,11 @@
                 {
                     "command": "commentTranslate.openMarkdownTranslatePreview",
                     "when": "resourceLangId == markdown || resourceLangId == prompt || resourceLangId == instructions || resourceLangId == chatagent || resourceLangId == skill",
+                    "group": "navigation"
+                },
+                {
+                    "command": "commentTranslate.openFeatureTranslateView",
+                    "when": "resourceExtname == .feature",
                     "group": "navigation"
                 },
                 {

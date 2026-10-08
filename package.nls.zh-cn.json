@@ -32,6 +32,7 @@
     "commentTranslate.configuration.MultilineMerge": "多行注释合并",
     "commentTranslate.configuration.mutualTranslate": "启用互译。开启后，当检测到输入文本的语言与目标语言相同时，将自动互换翻译方向。",
     "commentTranslate.command.openMarkdownTranslatePreview": "打开 Markdown 翻译预览",
+    "commentTranslate.command.openFeatureTranslateView": "打开 Feature 翻译视图",
     "commentTranslate.configuration.deepseek.apiKey": "DeepSeek API Key。",
     "commentTranslate.configuration.deepseek.apiBaseUrl": "DeepSeek API 地址，需包含版本前缀（如 https://api.deepseek.com/v1）。",
     "commentTranslate.configuration.deepseek.model": "翻译使用的 DeepSeek 模型。",

@@ -32,6 +32,7 @@
     "commentTranslate.configuration.MultilineMerge": "Comment Multi-line merge",
     "commentTranslate.configuration.mutualTranslate": "Enable mutual translate. When enabled, if the detected language of the input text matches the target language, the translation direction will be swapped automatically.",
     "commentTranslate.command.openMarkdownTranslatePreview": "Open Markdown Translate Preview",
+    "commentTranslate.command.openFeatureTranslateView": "Open Feature Translate View",
     "commentTranslate.configuration.deepseek.apiKey": "DeepSeek API key.",
     "commentTranslate.configuration.deepseek.apiBaseUrl": "DeepSeek API base URL, including the version prefix (e.g. https://api.deepseek.com/v1).",
     "commentTranslate.configuration.deepseek.model": "DeepSeek model used for translation.",

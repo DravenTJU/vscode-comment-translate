@@ -7,6 +7,7 @@ import { BingTranslate } from "./BingTranslate";
 import { detectLanguage } from "../lang";
 import { CopilotTranslate } from "./CopilotTranslate";
 import { TranSmartTranslate } from "./TranSmartTranslate";
+import { DeepSeekTranslate, Sub2ApiTranslate } from "./OpenAICompatibleTranslate";
 
 
 export let translateManager: TranslateManager;
@@ -110,6 +111,16 @@ export function initTranslate(context: ExtensionContext) {
         title: 'Tencent TranSmart translate',
         ctor: TranSmartTranslate,
         translate: 'TranSmart'
+    },
+    {
+        title: 'DeepSeek translate',
+        ctor: DeepSeekTranslate,
+        translate: 'DeepSeek'
+    },
+    {
+        title: 'sub2api translate',
+        ctor: Sub2ApiTranslate,
+        translate: 'sub2api'
     }];
     translateExtensionProvider = new TranslateExtensionProvider(translateManager, buildInTranslate);
     translateExtensionProvider.init(getConfig<string>('source', ''));

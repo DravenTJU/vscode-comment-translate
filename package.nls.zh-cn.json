@@ -31,5 +31,17 @@
     "commentTranslate.configuration.maxTranslationLength": "最大翻译长度",
     "commentTranslate.configuration.MultilineMerge": "多行注释合并",
     "commentTranslate.configuration.mutualTranslate": "启用互译。开启后，当检测到输入文本的语言与目标语言相同时，将自动互换翻译方向。",
-    "commentTranslate.command.openMarkdownTranslatePreview": "打开 Markdown 翻译预览"
+    "commentTranslate.command.openMarkdownTranslatePreview": "打开 Markdown 翻译预览",
+    "commentTranslate.configuration.deepseek.apiKey": "DeepSeek API Key。",
+    "commentTranslate.configuration.deepseek.apiBaseUrl": "DeepSeek API 地址，需包含版本前缀（如 https://api.deepseek.com/v1）。",
+    "commentTranslate.configuration.deepseek.model": "翻译使用的 DeepSeek 模型。",
+    "commentTranslate.configuration.deepseek.temperature": "DeepSeek 采样温度，0 可以让术语更稳定。",
+    "commentTranslate.configuration.sub2api.apiKey": "sub2api 网关的 API Key，无需鉴权时留空。",
+    "commentTranslate.configuration.sub2api.apiBaseUrl": "sub2api 地址，需包含版本前缀（如 http://127.0.0.1:8080/v1）。",
+    "commentTranslate.configuration.sub2api.model": "sub2api 网关暴露的模型名。",
+    "commentTranslate.configuration.sub2api.temperature": "sub2api 采样温度，0 可以让术语更稳定。",
+    "commentTranslate.configuration.deepseek.requestTimeout": "DeepSeek 请求超时时间（秒）。",
+    "commentTranslate.configuration.deepseek.extraRequestParams": "合并进 DeepSeek 请求体的额外字段。",
+    "commentTranslate.configuration.sub2api.requestTimeout": "sub2api 请求超时时间（秒）。",
+    "commentTranslate.configuration.sub2api.extraRequestParams": "合并进 sub2api 请求体的额外字段。"
 }

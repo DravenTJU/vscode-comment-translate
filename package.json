@@ -829,6 +829,78 @@
                         "order": 27,
                         "description": "%commentTranslate.configuration.source%"
                     },
+                    "commentTranslate.deepseek.apiKey": {
+                        "type": "string",
+                        "default": "",
+                        "order": 40,
+                        "description": "%commentTranslate.configuration.deepseek.apiKey%"
+                    },
+                    "commentTranslate.deepseek.apiBaseUrl": {
+                        "type": "string",
+                        "default": "https://api.deepseek.com/v1",
+                        "order": 41,
+                        "description": "%commentTranslate.configuration.deepseek.apiBaseUrl%"
+                    },
+                    "commentTranslate.deepseek.model": {
+                        "type": "string",
+                        "default": "deepseek-chat",
+                        "order": 42,
+                        "description": "%commentTranslate.configuration.deepseek.model%"
+                    },
+                    "commentTranslate.deepseek.temperature": {
+                        "type": "number",
+                        "default": 0,
+                        "order": 43,
+                        "description": "%commentTranslate.configuration.deepseek.temperature%"
+                    },
+                    "commentTranslate.deepseek.requestTimeout": {
+                        "type": "number",
+                        "default": 60,
+                        "order": 44,
+                        "description": "%commentTranslate.configuration.deepseek.requestTimeout%"
+                    },
+                    "commentTranslate.deepseek.extraRequestParams": {
+                        "type": "object",
+                        "default": {},
+                        "order": 45,
+                        "description": "%commentTranslate.configuration.deepseek.extraRequestParams%"
+                    },
+                    "commentTranslate.sub2api.apiKey": {
+                        "type": "string",
+                        "default": "",
+                        "order": 44,
+                        "description": "%commentTranslate.configuration.sub2api.apiKey%"
+                    },
+                    "commentTranslate.sub2api.apiBaseUrl": {
+                        "type": "string",
+                        "default": "http://127.0.0.1:8080/v1",
+                        "order": 45,
+                        "description": "%commentTranslate.configuration.sub2api.apiBaseUrl%"
+                    },
+                    "commentTranslate.sub2api.model": {
+                        "type": "string",
+                        "default": "gpt-4o-mini",
+                        "order": 46,
+                        "description": "%commentTranslate.configuration.sub2api.model%"
+                    },
+                    "commentTranslate.sub2api.temperature": {
+                        "type": "number",
+                        "default": 0,
+                        "order": 47,
+                        "description": "%commentTranslate.configuration.sub2api.temperature%"
+                    },
+                    "commentTranslate.sub2api.requestTimeout": {
+                        "type": "number",
+                        "default": 60,
+                        "order": 48,
+                        "description": "%commentTranslate.configuration.sub2api.requestTimeout%"
+                    },
+                    "commentTranslate.sub2api.extraRequestParams": {
+                        "type": "object",
+                        "default": {},
+                        "order": 49,
+                        "description": "%commentTranslate.configuration.sub2api.extraRequestParams%"
+                    },
                     "commentTranslate.maxTranslationLength": {
                         "type": "number",
                         "default": "10000",

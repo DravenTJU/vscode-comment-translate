@@ -31,5 +31,17 @@
     "commentTranslate.configuration.maxTranslationLength": "Max translation length",
     "commentTranslate.configuration.MultilineMerge": "Comment Multi-line merge",
     "commentTranslate.configuration.mutualTranslate": "Enable mutual translate. When enabled, if the detected language of the input text matches the target language, the translation direction will be swapped automatically.",
-    "commentTranslate.command.openMarkdownTranslatePreview": "Open Markdown Translate Preview"
+    "commentTranslate.command.openMarkdownTranslatePreview": "Open Markdown Translate Preview",
+    "commentTranslate.configuration.deepseek.apiKey": "DeepSeek API key.",
+    "commentTranslate.configuration.deepseek.apiBaseUrl": "DeepSeek API base URL, including the version prefix (e.g. https://api.deepseek.com/v1).",
+    "commentTranslate.configuration.deepseek.model": "DeepSeek model used for translation.",
+    "commentTranslate.configuration.deepseek.temperature": "Sampling temperature for DeepSeek. 0 keeps terminology stable.",
+    "commentTranslate.configuration.sub2api.apiKey": "API key for the sub2api gateway. Leave empty if it needs no authentication.",
+    "commentTranslate.configuration.sub2api.apiBaseUrl": "sub2api base URL, including the version prefix (e.g. http://127.0.0.1:8080/v1).",
+    "commentTranslate.configuration.sub2api.model": "Model name exposed by the sub2api gateway.",
+    "commentTranslate.configuration.sub2api.temperature": "Sampling temperature for sub2api. 0 keeps terminology stable.",
+    "commentTranslate.configuration.deepseek.requestTimeout": "Seconds to wait for a DeepSeek response before giving up.",
+    "commentTranslate.configuration.deepseek.extraRequestParams": "Extra fields merged into the DeepSeek request body.",
+    "commentTranslate.configuration.sub2api.requestTimeout": "Seconds to wait for a sub2api response before giving up.",
+    "commentTranslate.configuration.sub2api.extraRequestParams": "Extra fields merged into the sub2api request body."
 }
